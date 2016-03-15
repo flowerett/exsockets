@@ -27,6 +27,6 @@ defmodule Exsockets.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:redix, "~> 0.3"}]
   end
 end
