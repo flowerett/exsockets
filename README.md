@@ -18,3 +18,13 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [applications: [:exsockets]]
         end
 
+
+## ruby client:
+
+```
+$ ruby -r ./subscriber -e "Subscriber.new.subscribe('custom/test')"
+```
+
+```
+$ ruby -r ./publisher -e "Publisher.new.publish('custom/test', 'hello')"
+```
